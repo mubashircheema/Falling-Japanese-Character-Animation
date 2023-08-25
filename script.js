@@ -2,13 +2,7 @@ const canvas =document.getElementById("canvas1");
 const ctx=canvas.getContext("2d");
 canvas.width=window.innerWidth;
 canvas.height=window.innerHeight;
-let gradient = ctx.createLinearGradient(0,canvas.height,canvas.width,0)
-gradient.addColorStop(0, 'red')
-gradient.addColorStop(0.2, 'yellow')
-gradient.addColorStop(0.4, 'green')
-gradient.addColorStop(0.6, 'cyan')
-gradient.addColorStop(0.8, 'blue')
-gradient.addColorStop(0.1, 'magenta')
+
 
 
 
