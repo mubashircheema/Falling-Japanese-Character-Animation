@@ -8,8 +8,11 @@ body{
     background: black;
 }
 canvas{
-    background:black;
+    background: black;
     position: absolute;
     left: 0;
     top: 0;
+}
+p{
+    color:white
 }
